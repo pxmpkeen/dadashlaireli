@@ -1,4 +1,4 @@
-from . import db, cursor
+from . import db
 from uuid import uuid4
 
 class User(db.Model):

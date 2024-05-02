@@ -1,7 +1,9 @@
 from flask_restx import Resource
-from routes import ns
+from . import ns
 
-@ns.route("users")
+    
+    
+@ns.route("/users")
 class Users(Resource):
     def get(self):
-        
+        return {"qaqasensen": "abc"}
